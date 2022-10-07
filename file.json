@@ -1,0 +1,12 @@
+{
+    "services": [
+        {
+            "name": "AWS lambda",
+            "description": "create, deploy and test serverless functions"
+        },
+        {
+            "name": "AWS Cloud9",
+            "description": "Create developer environments to build and test applications"
+        }
+    ]
+}
