@@ -5,7 +5,7 @@ fs.readFile("./file.json", (error, content) => {
         console.error(error);
     } else {
         const json = JSON.parse(content);
-        console.log(`found ${json.services.count} services:`);
+        console.log(`found ${json.services.length} services:`);
         json.services.forEach((s) => {
             console.log(`Name: ${s.name}, Description: ${s.description}`) 
         });
